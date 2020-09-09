@@ -37,6 +37,9 @@ pipeline{
                     ])
                 }
 
+                success{
+                    archive 'target/alm02-final.war'
+                }
 
             }
 
