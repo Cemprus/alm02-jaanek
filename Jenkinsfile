@@ -48,7 +48,7 @@ pipeline{
         stage('Deploy application'){
             agent any
             steps{
-                sh 'asadmin --port 4848 deploy --force --name assigment-${DEPLOY_ENV} --contextroot assigment-${DEPLOY_ENV} target/alm02-final.war'
+                sh 'asadmin --port 4848 deploy --force --name alm02-${DEPLOY_ENV} --contextroot alm02-${DEPLOY_ENV} target/alm02-final.war'
             }
         }
     }
