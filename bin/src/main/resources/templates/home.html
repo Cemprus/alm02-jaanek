@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <h1 th:text="'Fortune Teller'" class=""></h1>
+        </div>
+        <form autocomplete="off" action="#" th:action="@{/}"
+                th:object="${person}" method="post" class="form-horizontal"
+                role="form">
+            <div class="form-group">
+                <h4>First Name
+                    <input type="text" th:field="*{name}" placeholder="First Name">
+                </h4>
+            </div>
+            <div class="form-group">
+                <h4>Nationality
+                    <input type="text" th:field="*{nationality}" placeholder="Nationality">
+                </h4>
+            </div>
+            <div class="form-group">
+                <h4>Ethnicity
+                    <input type="text" th:field="*{ethnicity}" placeholder="Ethnicity">
+                </h4>
+            </div>
+            <div class="form-group">
+                <h4>Day of Birth
+                    <input type="number" th:field="*{birth}" placeholder="Day of Birth">
+                </h4>
+            </div>
+            <div class="form-group">
+                <h4>Gender
+                    <select th:field="*{gender}">
+                        <option th:value="1" th:text="Male"></option>
+                        <option th:value="2" th:text="Female"></option>
+                        <option th:value="0" th:text="Other"></option>
+                    </select>
+                </h4>
+            </div>
+            <h1 th:text="${mes}"></h1>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Tell my fortune</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
