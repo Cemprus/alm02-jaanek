@@ -1,4 +1,4 @@
-package com.example.assigment2;
+package com.example.alm02;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class Assigment2Application extends SpringBootServletInitializer{
+public class Alm02Application extends SpringBootServletInitializer{
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
@@ -17,5 +17,5 @@ public class Assigment2Application extends SpringBootServletInitializer{
 		SpringApplication.run(applicationClass, args);
 	}
 
-	private static Class<Assigment2Application> applicationClass = Assigment2Application.class;
+	private static Class<Alm02Application> applicationClass = Alm02Application.class;
 }

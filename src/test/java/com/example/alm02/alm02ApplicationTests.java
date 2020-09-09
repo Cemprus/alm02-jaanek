@@ -1,14 +1,14 @@
-package com.example.assigment2;
+package com.example.alm02;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Assigment2ApplicationTests {
+class alm02ApplicationTests {
 
 	@Test
 	public void main() {
-		Assigment2Application.main(new String[] {});
+		Alm02Application.main(new String[] {});
 	}
 
 }

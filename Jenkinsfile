@@ -37,9 +37,7 @@ pipeline{
                     ])
                 }
 
-                success{
-                    archive 'target/assigment-2-0.0.1-SNAPSHOT.war'
-                }
+
             }
 
         }

@@ -1,9 +1,9 @@
-package com.example.assigment2.Controller;
+package com.example.alm02.Controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.assigment2.Model.Person;
+import com.example.alm02.Model.Person;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainControllerTest {

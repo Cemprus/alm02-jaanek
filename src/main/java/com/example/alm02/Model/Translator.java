@@ -1,4 +1,4 @@
-package com.example.assigment2.Model;
+package com.example.alm02.Model;
 
 public class Translator {
 

@@ -1,7 +1,7 @@
-package com.example.assigment2.Controller;
+package com.example.alm02.Controller;
 
-import com.example.assigment2.Model.Person;
-import com.example.assigment2.Model.Translator;
+import com.example.alm02.Model.Person;
+import com.example.alm02.Model.Translator;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;

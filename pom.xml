@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>assigment-2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>assigment-2</name>
-	<description>Assigment 2 for Spring Boot</description>
+	<artifactId>alm02</artifactId>
+	<version>final</version>
+	<name>alm02</name>
+	<description>Assigment 2 for ALM</description>
 	<packaging>war</packaging>
 
 	<properties>

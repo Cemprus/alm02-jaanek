@@ -1,4 +1,4 @@
-package com.example.assigment2.Model;
+package com.example.alm02.Model;
 
 import java.util.concurrent.ThreadLocalRandom;
 
